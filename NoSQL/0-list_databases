@@ -1,1 +1,2 @@
-cat 0-list_databases | mongo
+// List all Databases in Mongo
+show dbs
