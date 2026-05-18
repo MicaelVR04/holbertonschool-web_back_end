@@ -1,0 +1,16 @@
+{
+  "name": "node_js_basic",
+  "version": "1.0.0",
+  "description": "Node.js Basics",
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets babel-preset-env ./full_server/server.js ./database.csv"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^3.1.14"
+  }
+}
